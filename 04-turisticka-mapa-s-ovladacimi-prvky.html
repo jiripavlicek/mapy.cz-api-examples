@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs">
+<head>
+    <title>04-turisticka-mapa-s-ovladacimi-prvky</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="http://api4.mapy.cz/loader.js"></script>
+    <script type="text/javascript">Loader.load();</script>
+</head>
+<body>
+<div class="container-map" id="map"></div>
+
+<script type="text/javascript"><!--
+
+var m;
+
+/* mapa mapy.cz */
+var center = SMap.Coords.fromWGS84(15.831393504142761, 49.742116625320934);
+m = new SMap(JAK.gel("map"), center, 10);
+m.setZoomRange(7, 15);
+m.addDefaultLayer(SMap.DEF_TURIST).enable();
+//      m.addDefaultControls();
+
+var o = {title: "Posun mapy"};
+var c = new SMap.Control.Compass(o);
+m.addControl(c, {left: "25px", top: "25px"});
+var labels = {
+    0: "Světadíly", 3: "Státy", 6: "Kraje", 9: "Města",
+    12: "Obce", 15: "Ulice", 18: "Domy", 19: "Ptačí pohled"
+};
+var c = new SMap.Control.Zoom(labels, {title: 'Změna přiblížení'});
+m.addControl(c, {left: "18px", top: "100px"});
+var c = new SMap.Control.Mouse(SMap.MOUSE_PAN | SMap.MOUSE_ZOOM | SMap.MOUSE_WHEEL);
+m.addControl(c);
+var sync = new SMap.Control.Sync({bottomSpace: 60});
+m.addControl(sync);
+
+//--></script>
+
+</body>
+</html>
+
+
+
+
