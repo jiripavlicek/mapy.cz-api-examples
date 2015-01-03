@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs">
+<head>
+    <title>06-zobrazeni-trasy-z-klm-souboru</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="http://api4.mapy.cz/loader.js"></script>
+    <script type="text/javascript">Loader.load();</script>
+</head>
+<body>
+
+<!--
+
+inspirováno příkladem http://ondras.zarovi.cz/slides/mapyapi-2/examples/7/ Ondřeje Žáry
+
+-->
+
+<div class="container-map" id="map"></div>
+
+<script>
+    var zoom = 6;
+    var mapa = new SMap(JAK.gel("map"), null, zoom);
+    mapa.addDefaultControls();
+    mapa.addControl(new SMap.Control.Sync({bottomSpace: 0}));
+
+    mapa.addDefaultLayer(SMap.DEF_TURIST).enable();
+
+    var markers = new SMap.Layer.Marker();
+    mapa.addLayer(markers).enable();
+
+    var marker = new SMap.Marker();
+
+    var url = 'trasa.kml';
+    var r = new JAK.Request(JAK.Request.XML);
+    r.setCallback(function (data) {
+        var kml = new SMap.Layer.KML(data);
+        mapa.addLayer(kml).enable();
+        kml.fit();
+    });
+    r.send(url);
+
+</script>
+
+</body>
+</html>

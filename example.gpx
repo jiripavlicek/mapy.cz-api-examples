@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+  <gpx version="1.0"
+  creator="See http://www.mappingsupport.com"
+  xmlns="http://www.topografix.com/GPX/1/0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<wpt lat="50.128777" lon="15.702724">
+    <name>Plch</name>
+</wpt>
+<wpt lat="50.115769" lon="15.730609">
+    <name>Rybník</name>
+</wpt>
+<wpt lat="50.085358" lon="15.762141">
+    <name>Srch</name>
+</wpt>
+<trk>
+<name>Výlet</name>
+<trkseg>
+<trkpt lat="50.128777" lon="15.702724"></trkpt>
+<trkpt lat="50.130841" lon="15.704656"></trkpt>
+<trkpt lat="50.129025" lon="15.707874"></trkpt>
+<trkpt lat="50.128282" lon="15.709248"></trkpt>
+<trkpt lat="50.125806" lon="15.713153"></trkpt>
+<trkpt lat="50.124485" lon="15.715384"></trkpt>
+<trkpt lat="50.123852" lon="15.717187"></trkpt>
+<trkpt lat="50.123605" lon="15.717949"></trkpt>
+<trkpt lat="50.124031" lon="15.72003"></trkpt>
+<trkpt lat="50.12432" lon="15.721564"></trkpt>
+<trkpt lat="50.122009" lon="15.723249"></trkpt>
+<trkpt lat="50.120344" lon="15.72445"></trkpt>
+<trkpt lat="50.118872" lon="15.725513"></trkpt>
+<trkpt lat="50.117476" lon="15.726553"></trkpt>
+<trkpt lat="50.116636" lon="15.728334"></trkpt>
+<trkpt lat="50.115769" lon="15.730609"></trkpt>
+<trkpt lat="50.114951" lon="15.733109"></trkpt>
+<trkpt lat="50.114387" lon="15.73563"></trkpt>
+<trkpt lat="50.113809" lon="15.73872"></trkpt>
+<trkpt lat="50.113279" lon="15.740812"></trkpt>
+<trkpt lat="50.112687" lon="15.743022"></trkpt>
+<trkpt lat="50.111923" lon="15.74594"></trkpt>
+<trkpt lat="50.110823" lon="15.750446"></trkpt>
+<trkpt lat="50.110121" lon="15.753171"></trkpt>
+<trkpt lat="50.109612" lon="15.755424"></trkpt>
+<trkpt lat="50.109171" lon="15.755768"></trkpt>
+<trkpt lat="50.108346" lon="15.755618"></trkpt>
+<trkpt lat="50.10591" lon="15.753987"></trkpt>
+<trkpt lat="50.105263" lon="15.753579"></trkpt>
+<trkpt lat="50.104712" lon="15.753987"></trkpt>
+<trkpt lat="50.104134" lon="15.754952"></trkpt>
+<trkpt lat="50.104217" lon="15.755596"></trkpt>
+<trkpt lat="50.104616" lon="15.756691"></trkpt>
+<trkpt lat="50.104589" lon="15.757785"></trkpt>
+<trkpt lat="50.104121" lon="15.758686"></trkpt>
+<trkpt lat="50.103653" lon="15.758986"></trkpt>
+<trkpt lat="50.103212" lon="15.758622"></trkpt>
+<trkpt lat="50.102015" lon="15.758471"></trkpt>
+<trkpt lat="50.098739" lon="15.758128"></trkpt>
+<trkpt lat="50.097707" lon="15.757656"></trkpt>
+<trkpt lat="50.096537" lon="15.757034"></trkpt>
+<trkpt lat="50.095642" lon="15.757399"></trkpt>
+<trkpt lat="50.094706" lon="15.758579"></trkpt>
+<trkpt lat="50.093591" lon="15.759952"></trkpt>
+<trkpt lat="50.092916" lon="15.76051"></trkpt>
+<trkpt lat="50.091526" lon="15.760725"></trkpt>
+<trkpt lat="50.0907" lon="15.760467"></trkpt>
+<trkpt lat="50.08953" lon="15.760789"></trkpt>
+<trkpt lat="50.088112" lon="15.761089"></trkpt>
+<trkpt lat="50.086212" lon="15.761518"></trkpt>
+<trkpt lat="50.085551" lon="15.761755"></trkpt>
+<trkpt lat="50.085358" lon="15.762141"></trkpt>
+</trkseg>
+</trk>
+</gpx>
